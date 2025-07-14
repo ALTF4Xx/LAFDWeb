@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meet the SHRs - LAFD</title>
+  <link rel="icon" href="https://www.lafd.org/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'montserrat': ['Montserrat', 'sans-serif'],
+          },
+          colors: {
+            'fire-red': '#DC2626',
+            'fire-orange': '#EA580C',
+            'fire-yellow': '#F59E0B',
+            'lafd-blue': '#1E40AF',
+            'lafd-dark': '#1F2937',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .staff-card:hover {
+      transform: translateY(-4px);
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-montserrat">
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <a href="index.html" class="flex items-center space-x-3">
+          <img src="LAFd%20Logo.png" alt="LAFD Logo" class="h-12 w-auto" />
+          <span class="text-xl font-bold text-lafd-dark hidden sm:block">LAFD</span>
+        </a>
+        <nav class="hidden md:flex space-x-8" aria-label="Primary navigation">
+           <a href="index.html" class="text-lafd-dark hover:text-fire-red font-semibold transition-colors duration-200 border-b-2 border-fire-red">Home</a>
+            <a href="recruitment.html" class="text-lafd-dark hover:text-fire-red font-semibold transition-colors duration-200 border-b-2 border-fire-red">Recruitment</a>
+            <a href="halloffame.html" class="text-lafd-dark hover:text-fire-red font-semibold transition-colors duration-200 border-b-2 border-fire-red">Hall of Fame</a>
+          <a href="meetthecrew.html" class="text-lafd-dark hover:text-fire-red font-semibold transition-colors duration-200 border-b-2 border-fire-red">Meet the SHRs</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative h-96 md:h-[400px] overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-r from-fire-red to-fire-orange opacity-90"></div>
+      <div class="absolute inset-0">
+        <img src="mediclineup.png" alt="LAFD Staff Banner" class="w-full h-full object-cover mix-blend-overlay" />
+      </div>
+      <div class="relative z-10 flex items-center justify-center h-full text-center text-white px-4">
+        <div class="max-w-4xl">
+          <h1 class="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">Meet the Staff</h1>
+          <p class="text-xl md:text-2xl font-semibold drop-shadow-md">The dedicated SHR team behind the LAFD’s continued success.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-lafd-dark mb-4">Our Current Team</h2>
+        <div class="w-24 h-1 bg-fire-red mx-auto mb-8"></div>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">Here are the fire SHRs, and support personnel that keep the department strong every day.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="bran.png" alt="FireChief" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Chief Branryl</h3>
+            <p class="text-gray-600 font-semibold mb-2">Fire Chief (FC-08)</p>
+            <p class="text-gray-700">Leading the entire department since June, 2025, Chief Branryl is known for his stern, expecting and grounded reasoning.</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="images/staff2.png" alt="ChiefDep1" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Chief Deputy Robert </h3>
+            <p class="text-gray-600 font-semibold mb-2">Chief Deputy (CM-01)</p>
+            <p class="text-gray-700">Chief Dep. Robert has brought new insights into LAFD, introducing experimental leadership techniques. He has been serving LAFD since April, 2025.</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="severide.png" alt="Dep Chief2" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Deputy Chief Severide </h3>
+            <p class="text-gray-600 font-semibold mb-2">Deputy Chief (CM-02A)</p>
+            <p class="text-gray-700">Severide is a Deputy Chief ensuring activity, exemplary conduct and promising results. Known as a laid back, but stern leader, Severide has been serving since June, 2025.</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="Max.png" alt="Dep Chief1" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Deputy Chief Max</h3>
+            <p class="text-gray-600 font-semibold mb-2">Deupty Chief (CM-02B)</p>
+            <p class="text-gray-700">Max is a Deputy Chief, ensuring proper accountability, enforced guidelines and making sure the rules are followed. He has been serving since June, 2025</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="text-center mt-20 mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-lafd-dark mb-4">Medic SHRs</h2>
+        <div class="w-24 h-1 bg-fire-orange mx-auto mb-8"></div>
+        <p class="text-lg text-gray-600 max-w-3xl mx-auto">Medical Support and Response Leadership handling the front lines of care.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="owen.png" alt="MedDirctr" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Medical Director Owen</h3>
+            <p class="text-gray-600 font-semibold mb-2">Director of Medical Division Employees (MD-01)</p>
+            <p class="text-gray-700">Owen is the overseer of the Medical Division and is known for his open minded take on leadership. He has been serving LAFD since April, 2025</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="kage.png" alt="DepMed" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Deputy Medical Director Kage</h3>
+            <p class="text-gray-600 font-semibold mb-2">Deputy Medical Director (MD-02)</p>
+            <p class="text-gray-700">Kage is the Deputy Medical Director, helping the Director in operations, and making sure things are running smoothly. Kage is known for his flexibility scene to scene, and dedication to accuracy. He has been serving since March, 2025</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="revo.png" alt="AsstMedDr1" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Assistant Medical Director Revo</h3>
+            <p class="text-gray-600 font-semibold mb-2">Assistant Medical Director (MD-03A)</p>
+            <p class="text-gray-700">Revo is one of the Assistant Medical Directors who assist in all medical operations and things alike. He is known for his dedication to the commmunity, public outreach and his efforts in ensuring LAFDs future operations. He has been serving since June, 2025</p>
+          </div>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-lg overflow-hidden staff-card">
+          <img src="syrup.png" alt="AsstMedDr2" class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-bold text-lafd-dark">Assistant Medical Director Syrup</h3>
+            <p class="text-gray-600 font-semibold mb-2">Assistant Medical Director (MD-03B)</p>
+            <p class="text-gray-700">Syrup is another Assistant Medical Director, working alongside Revo. He is known for his accuracy, attention to detail, and his Incident Command expierience. He has been serving since May, 2025</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-lafd-dark text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="text-gray-400">&copy; 2025 Los Angeles Fire Department. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
